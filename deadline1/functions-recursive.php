@@ -6,7 +6,7 @@ stijn.deridder.1@student.kdg.be
 $counter = 1;
 $investering = 100000;
 $rente = 1.08;
-
+$gebruikerHans = array(1, 100000, 1.08);
 function berekenRente($counter, $investering, $rente)
 {
 	$bedrag = floor($investering * $rente);
@@ -17,7 +17,7 @@ function berekenRente($counter, $investering, $rente)
 		berekenRente($counter, $bedrag, $rente);
 	}
 }
-berekenRente($counter, $investering, $rente);
+berekenRente($gebruikerHans[0], $gebruikerHans[1], $gebruikerHans[2]);
 ?>
 
 <!DOCTYPE html>
