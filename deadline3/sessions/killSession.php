@@ -1,4 +1,8 @@
 <?php
+/*
+Stijn De Ridder
+stijn.deridder.1@student.kdg.be
+*/
 session_start(); /*code to kill session*/
 if ( isset( $_GET['session'] ) )
 {

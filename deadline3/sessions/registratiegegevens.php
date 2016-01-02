@@ -1,6 +1,8 @@
 <?php
-
-
+/*
+Stijn De Ridder
+stijn.deridder.1@student.kdg.be
+*/
 if (isset($_POST["deel1"]))
 {
 	$email = $_SESSION["deel1"]["email"];

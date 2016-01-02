@@ -1,4 +1,8 @@
 <?php
+/*
+Stijn De Ridder
+stijn.deridder.1@student.kdg.be
+*/
 session_start();
 $inputPost = $_POST;
 if (isset($_POST["submit"]))

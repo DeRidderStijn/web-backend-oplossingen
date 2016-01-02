@@ -1,5 +1,8 @@
 <?php
-//iset: determines if variable is set and is not null
+/*
+Stijn De Ridder
+stijn.deridder.1@student.kdg.be
+*/
 session_start();
 
 	if (isset($_POST["submit"]))
@@ -7,8 +10,8 @@ session_start();
 		$_SESSION["deel1"]["email"] = $_POST["email"];
 		$_SESSION["deel1"]["nickname"]= $_POST["nickname"];
 	}
-$email = $_SESSION['deel1']['email'];
-$nickname = $_SESSION['deel1']['nickname'];
+	$email = $_SESSION['deel1']['email'];
+	$nickname = $_SESSION['deel1']['nickname'];
 
 	if(isset($_SESSION['deel2']))
 	{
