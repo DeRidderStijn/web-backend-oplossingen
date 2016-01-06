@@ -42,9 +42,6 @@
       </style>
    </head>
 <body>
-
-      <h1>Voorbeeld van database resultaten ophalen (PDO)</h1> 
-
       <p><?php echo $messageContainer ?></p>
 
       <table>
