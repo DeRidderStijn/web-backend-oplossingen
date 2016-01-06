@@ -34,7 +34,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>Oplossing oefening 023 - a</title>
+      <title>CRUD-Query-deel1</title>
       <style>
          .even{
             background-color: green;
