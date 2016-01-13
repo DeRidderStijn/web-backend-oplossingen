@@ -28,6 +28,7 @@
 
          $deleteBrouwerStatement = $db->prepare( $deleteBrouwerQuery );
          $deleteBrouwerStatement->bindValue( ':brouwernr', $_POST['comfirmDelete'] );
+         var_dump($_POST["comfirmDelete"]);
          $isDeleted  =  $deleteBrouwerStatement->execute();
 
          if ( $isDeleted )
@@ -70,7 +71,7 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <title>CRUD - Insert</title>
+      <title>CRUD - Delete</title>
       <style>
          .odd{
             background-color: #B0B0B0;
