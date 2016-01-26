@@ -54,7 +54,7 @@
       <input type="text" name="adres" id="adres"><br></p>
 
       <p><label>postcode</label><br>
-      <input type="text" name="postcode" id="adres"><br></p>
+      <input type="text" name="postcode" id="postcode"><br></p>
 
       <p><label>gemeente</label><br>
       <input type="text" name="gemeente" id="gemeente"><br></p>
