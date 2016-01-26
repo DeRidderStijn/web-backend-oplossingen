@@ -4,9 +4,6 @@
         <meta charset="utf-8">
         <title><?php echo $current; ?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="The official Van Bouwel Kranen Verkoop & Service BVBA Website">
-        <meta name="keywords" content="Van Bouwel Kranen, Van Bouwel, Minikranen, Minicranes, Mini-grues, kranen, cranes, grues, VBA, VBI, VBO, Hidrokon, Atlas, Winlet, Ozgul, Kapellen, Antwerpen, België, Verkoop, Verhuur">
-        <meta name="author" content="Van Bouwel Kranen">
         <!-- online stylesheets-->
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
         <!--<link href="//cdnjs.cloudflare.com/ajax/libs/jasny-bootstrap/3.1.3/css/jasny-bootstrap.min.css" rel="stylesheet">-->
